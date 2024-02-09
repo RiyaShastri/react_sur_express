@@ -1,0 +1,38 @@
+[
+	{
+		"permissionId": "6478728334e065e5718cb44b",
+		"roleId": 1,
+		"view": true,
+		"create": true
+	},
+	{
+		"permissionId": "64783a7d34e065e5718cb441",
+		"roleId": 1,
+		"view": true,
+		"create": true
+	},
+	{
+		"permissionId": "6478723834e065e5718cb44a",
+		"roleId": 1,
+		"view": true,
+		"create": true
+	},
+	{
+		"permissionId": "64783a7d34e065e5718cb440",
+		"roleId": 1,
+		"view": true,
+		"create": true
+	},
+	{
+		"permissionId": "647872e934e065e5718cb44d",
+		"roleId": 1,
+		"view": true,
+		"create": true
+	},
+	{
+		"permissionId": "6478730b34e065e5718cb44e",
+		"roleId": 1,
+		"view": true,
+		"create": true
+	}
+]

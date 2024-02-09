@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "6478728334e065e5718cb44b",
+    "slug": "profile"
+  },
+  {
+    "_id": "64783a7d34e065e5718cb441",
+    "slug": "store"
+  },
+  {
+    "_id": "6478723834e065e5718cb44a",
+    "slug": "users"
+  },
+	{
+		"_id": "64783a7d34e065e5718cb440",
+		"slug": "customer"
+	},
+	{
+		"_id": "647872e934e065e5718cb44d",
+		"slug": "tax"
+	},
+	{
+		"_id": "6478730b34e065e5718cb44e",
+		"slug": "admin_users"
+	},
+	{
+		"profile": { "view": true, "create": false },
+		"store": { "view": true, "create": false },
+		"users": { "view": true, "create": false },
+		"customer": { "view": true, "create": false },
+		"tax": { "view": true, "create": false },
+		"admin_users": { "view": true, "create": false }
+	}
+]

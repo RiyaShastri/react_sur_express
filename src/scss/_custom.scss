@@ -1,0 +1,221 @@
+// Here you can add other styles
+
+a:hover {
+  cursor: pointer;
+}
+
+.otpInput {
+  width: 2.5rem !important;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.auth-link {
+  color: $primary-base;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.react-dataTable {
+  width: 100%;
+}
+
+.react-dataTable .rdt_TableHead .rdt_TableHeadRow {
+  border-bottom-color: rgba(0, 0, 0, 0.32);
+  border-bottom-width: 1.5px;
+}
+
+.react-dataTable .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol .rdt_TableCol_Sortable {
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1;
+  font-size: 15.6px;
+  overflow: initial !important;
+  white-space: normal !important;
+}
+.rdt_TableCol div,
+.rdt_TableCol_Sortable div {
+  overflow: inherit !important;
+}
+
+.react-dataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell {
+  font-size: 15.6px;
+}
+
+.rdt_TableHeader {
+  font-size: 18px !important;
+  min-height: 0px !important;
+}
+
+.react-dataTable .rdt_Pagination {
+  font-size: 15.6px !important;
+}
+
+.react-tel-input :disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.react-tel-input {
+  .selected-flag.open:before,
+  .selected-flag.open:focus,
+  .selected-flag:focus:before {
+    box-shadow: 0 0 0 0.25rem rgba(40, 46, 105, 0.25);
+    border-color: var(--cui-input-focus-border-color, #9497b4);
+  }
+}
+
+.phone-number-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(40, 46, 105, 0.25) !important;
+  border-color: var(--cui-input-focus-border-color, #9497b4) !important;
+  border: 1px solid var(--cui-input-border-color, #b1b7c1) !important;
+  outline: 0 !important;
+
+  .is-invalid {
+    border-color: #e55353 !important;
+    box-shadow: 0 0 0 0.25rem rgba(229, 83, 83, 0.25) !important;
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 12 12%27 width=%2712%27 height=%2712%27 fill=%27none%27 stroke=%27%23e55353%27%3e%3ccircle cx=%276%27 cy=%276%27 r=%274.5%27/%3e%3cpath stroke-linejoin=%27round%27 d=%27M5.8 3.6h.4L6 6.5z%27/%3e%3ccircle cx=%276%27 cy=%278.2%27 r=%27.6%27 fill=%27%23e55353%27 stroke=%27none%27/%3e%3c/svg%3e');
+    background-repeat: no-repeat !important;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+  }
+}
+
+.auth-user-dropdown {
+  transform: translate(0px, 45px) !important;
+}
+
+.rounded-btn-pill {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.react-date-picker__wrapper,
+.react-datetime-picker__wrapper {
+  border: 0 !important;
+}
+
+.react-date-picker__button,
+.react-datetime-picker__button {
+  padding: 0 !important;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+  // color: #2c384af2;
+  color: $gray-base;
+}
+
+.react-date-picker--open,
+.react-datetime-picker--open {
+  color: var(--cui-input-focus-color, rgba(44, 56, 74, 0.95));
+  background-color: var(--cui-input-focus-bg, #fff);
+  border-color: var(--cui-input-focus-border-color, #9497b4);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(40, 46, 105, 0.25);
+  z-index: 2000 !important;
+
+  .is-invalid {
+    border-color: #e55353 !important;
+    box-shadow: 0 0 0 0.25rem rgba(229, 83, 83, 0.25) !important;
+  }
+}
+.react-date-picker--disabled,
+.react-datetime-picker--disabled {
+  background-color: #d8dbe0 !important;
+  border-color: #b1b7c1 !important;
+  opacity: 1;
+}
+.react-calendar__tile--active {
+  background: $primary-base !important;
+  color: white;
+}
+.react-calendar__tile--now {
+  background: $primary-50 !important;
+}
+
+.result-box {
+  font-size: 20px;
+  font-weight: bold;
+  color: #424042;
+  border: 3px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.hero-container {
+  .landing-hero-image {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .live-rate {
+    .title {
+      display: flex;
+      align-items: center;
+      line-height: 3px;
+      .flag-img {
+        height: 100%;
+        max-height: 45px;
+      }
+      p{
+        padding: 13px 0px 0px 10px;
+        line-height: 20px;
+      }
+    }
+    .rdt_TableHeader {
+      color: red;
+    }
+  }
+}
+
+// iframe#webpack-dev-server-client-overlay {
+//   display: none;
+// }
+
+.conversionSection {
+  padding: 20px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .conversion-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .swipBtn {
+    background-color: #282e69;
+    border: none;
+    color: white;
+    line-height: 1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .currency-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .arrow-icon {
+    display: flex;
+    flex-direction: column;
+  }
+}
